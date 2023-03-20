@@ -19,11 +19,14 @@
     font-family: verdana-c;
     src: url(../fonts/verdanab.ttf);
 }
+
 body {
     background-image: url(../bg.jpg);
     color: black;
     font-family: gliker-bold;
+    max-width: 100%;
 }
+
 button {
     position: absolute;
     background-color: #f9f7f7;
