@@ -11,31 +11,66 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px){
     .logo {
-        left: 15px;
+        bottom: 82vh;
+        width: 90px;
+        left: 4vh;
     }
-    .discord {
-        right: 4.5vh;
-    }
+
     .twitter {
-        right: 13vh;
+        position: absolute;
+        bottom: 87vh;
+        right: 19vh;
+        width: 40px;
+    }
+
+    .discord {
+        position: absolute;
+        bottom: 87vh;
+        right: 7vh;
+        width: 40px;
+    }
+
+    .members {
+        margin: 30px;
     }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px){    
     .logo {
-        bottom: 87vh;
+        bottom: 85vh;
         left: 10px;
+        width: 85px;
     }
     .discord {
-        right: 2.5vh;
+        right: 3vh;
+        width: 35px;
+        bottom: 88vh;
     }
     .twitter {
-        right: 10vh;
+        right: 14vh;
+        width: 35px;
+        bottom: 88vh;
+    }
+
+    .botton {
+        bottom: 39vh;
+    }
+
+    .members {
+        margin: 30px;
     }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px){
     /* */
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    .logo {
+        bottom: 50vh;
+        left: 10px;
+    }
+
 }

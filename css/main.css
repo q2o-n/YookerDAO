@@ -71,3 +71,71 @@ button {
     left: 10vh;
     width: 100px;
 }
+
+.members_block{
+    text-align: center;
+    position: relative;
+    top: 90vh;
+}
+
+/*.members{
+    display: flex;
+    max-height: 200px;
+    overflow: auto;
+    overflow-y: hidden;
+    height: 100px;
+    position: relative;
+    top: 95vh;
+    left: 20vh;
+}
+.members .card{
+    margin-right: 2vh;
+    line-height: 100px;
+}
+
+
+
+.text-card {
+    font-family: verdana-c;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 28vh;
+    width: 100%
+}
+*/
+
+.members{
+    position: relative;
+    max-height: 250px;
+    border: 1px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    top: 95vh;
+    margin: 0 20vh 0 20vh;
+}
+
+.members .card{
+    width: 200px;
+    height: 250px;
+    line-height: 250px;
+}
+
+.members .card{
+    margin-right: 3vh;
+    line-height: 30px;
+}
+
+.members img{
+    border: 1.5px solid rgb(58, 58, 58);
+}
+
+.text-card {
+    cursor: pointer;
+    color: black;
+    left: 0;
+    text-align:center;
+    margin-left: 40px;
+    width: 100%
+}
