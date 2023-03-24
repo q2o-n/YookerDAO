@@ -1,76 +1,84 @@
-/*Large Devices, Wide Screens*/
-@media only screen and (max-width: 1200px){
-    /* */
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px){
-    /* */
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px){
-    .logo {
-        bottom: 82vh;
-        width: 90px;
-        left: 4vh;
-    }
-
-    .twitter {
-        position: absolute;
-        bottom: 87vh;
-        right: 19vh;
-        width: 40px;
-    }
-
-    .discord {
-        position: absolute;
-        bottom: 87vh;
-        right: 7vh;
-        width: 40px;
-    }
-
-    .members {
-        margin: 30px;
-    }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px){    
-    .logo {
-        bottom: 85vh;
-        left: 10px;
-        width: 85px;
-    }
-    .discord {
-        right: 3vh;
-        width: 35px;
-        bottom: 88vh;
-    }
-    .twitter {
-        right: 14vh;
-        width: 35px;
-        bottom: 88vh;
-    }
-
-    .botton {
-        bottom: 39vh;
-    }
-
-    .members {
-        margin: 30px;
-    }
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px){
-    /* */
-}
-
-@media (min-width: 280px) and (max-width: 320px) {
-    .logo {
-        bottom: 50vh;
-        left: 10px;
-    }
-
+/*Large Devices, Wide Screens*/ 
+@media only screen and (max-width: 1199px){ 
+    .logo { 
+        bottom: 84vh; 
+        width: 90px; 
+    } 
+    .discord { 
+        right: 10vh; 
+        width: 40px; 
+        bottom: 87vh; 
+    } 
+    .twitter { 
+        right: 20vh; 
+        width: 40px; 
+        bottom: 87vh; 
+    } 
+    .members { 
+        margin: 70px; 
+    } 
+    .botton{ 
+        bottom: 40vh; 
+    } 
+ 
+ 
+} 
+ 
+/* Small Devices, Tablets */ 
+@media only screen and (max-width: 768px){ 
+    .logo { 
+        bottom: 85vh; 
+        width: 90px; 
+        left: 4vh; 
+    } 
+ 
+    .twitter { 
+        position: absolute; 
+        bottom: 87vh; 
+        right: 17vh; 
+        width: 40px; 
+    } 
+ 
+    .discord { 
+        position: absolute; 
+        bottom: 87vh; 
+        right: 7vh; 
+        width: 40px; 
+    } 
+ 
+    .members { 
+        margin: 30px; 
+    } 
+} 
+ 
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width: 480px){     
+    .logo { 
+        bottom: 85vh; 
+        left: 10px; 
+        width: 85px; 
+    } 
+    .discord { 
+        right: 3vh; 
+        width: 35px; 
+        bottom: 88vh; 
+    } 
+    .twitter { 
+        right: 11vh; 
+        width: 35px; 
+        bottom: 88vh; 
+    } 
+ 
+    .botton { 
+        bottom: 39vh; 
+    } 
+ 
+    .members { 
+        margin: 30px; 
+    } 
+} 
+ 
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width: 320px){ 
+    /* */ 
 }
