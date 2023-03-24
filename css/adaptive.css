@@ -54,20 +54,20 @@
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width: 480px){     
     .logo { 
-        bottom: 85vh; 
+        bottom: 81vh; 
         left: 10px; 
         width: 85px; 
     } 
     .discord { 
         right: 3vh; 
         width: 35px; 
-        bottom: 80vh; 
+        bottom: 85vh; 
     } 
-    .twitter { 
-        right: 11vh; 
-        width: 35px; 
-        bottom: 88vh; 
-    } 
+    .twitter {
+        right: 11vh;
+        width: 35px;
+        bottom: 85vh;
+    }
  
     .botton { 
         bottom: 39vh; 
